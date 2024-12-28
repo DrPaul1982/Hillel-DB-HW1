@@ -1,6 +1,8 @@
-show databases;
+CREATE DATABASE my_databse;
 
-use my_database;
+SHOW databases;
+
+USE my_database;
 
 CREATE TABLE users (id INT AUTO_INCREMENT PRIMARY KEY,
 name VARCHAR(50), age INT, email VARCHAR(50));
